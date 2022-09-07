@@ -1,41 +1,55 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*,.navegacao--link{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Inter';
 }
 
-imgs{
+img{
     max-width: 100%;
     display: block;
 }
 
-.cabecalho{
+.menu-cor{
+    background: rgb(255, 255, 255);
     height: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
 }
 
 .menu{
     display: flex;
     align-items: flex-end;
-    justify-content: space-between;
-    height: 60px;
-    margin-right: 20px;
-    gap: 25px;
+    justify-content:space-between;
+    max-width:1152px;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
 
-.menu li{
-    list-style: none;
+.navegacao--lista{
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.menu li a {
-     text-decoration: none;
-     color: black;
+.navegacao--link{
+    padding: 10px 10px;
+    color: black;
+    font-weight: 400;
+    text-align: right;
+}
+.menu--logo{
+    padding-top: 25px;
 }
 
+
+hr{
+    border: none;
+    height:19px;
+    background-color: black;
+    width: 2px;
+}
 
 .container{
     display: flex;
@@ -43,34 +57,87 @@ imgs{
     justify-content: center;
     flex-direction: column;
 }
-
-
 .secao{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 20px;
-    background-image: url("/assets/imgs/rocket.png");
-    background-position: center;
+    background-image: url("/assets/imgs/rocket-fundo.png"),linear-gradient(to right,rgb(15, 15, 15),rgb(0, 0, 0));
+    background-position: top;
     background-size: cover;
     height:700px ;
-    min-width: 100%;
+    width: 100%;
 }
 
-.secao h1 {
-    font-size: 42px;
+.secao-titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secao-titulo h1{
+    font-size: 48px;
+  text-align: center;
     color: white;
+    font-weight: 400;
+    margin-bottom:107px ;
+}
+
+.botao{
+    width: 360px;
+    height: 67px;
+    background-color: #692DE9;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 24px;
+    color: white;
+    margin-bottom:106px ;
+    cursor: pointer;
+    transition: all .5s;
+}
+.botao:hover{
+    background-color: rgba(105, 45, 233, 0.48);
 }
 
 .caixa-jornada {
     width: 360px;
     height: 184px;
-    background-color: rgba(0, 0, 0, 0.144);
+    background-color: rgba(3, 3, 3, 0.8);
     border-radius: 5px;
+    margin-top:29px ;
 }
 
 .caixa-jornada h3 {
     text-align: center;
+    margin-top: 26px;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.caixa-horarios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+.caixa-horarios p{
+    text-align: center;
     margin-top: 20px;
+    color: white;
+    font-size: 16px;
+    width: 500;
+}
+
+.horas{
+    color: #692DE9;
+    font-size: 25px;
+    font-weight: 500;
+    display: block;
+ 
 }
