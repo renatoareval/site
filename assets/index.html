@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FIC</title>
+    <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
@@ -12,170 +13,240 @@
     <header>
       <div class="menu-cor">
         <div class="menu">
-            <div class="menu--logo">
-                <img src="imgs/logoifro.png" alt="Logo Ifro" />
-            </div>
-            <nav class="navegacao">
-                <ul class="navegacao--lista">
-                    <li><a href="#" class="navegacao--link">Educadores</a></li>
-                    <hr>
-                    <li><a href="#" class="navegacao--link">Conteúdo do curso</a></li>
-                    <hr>
-                    <li><a href="#" class="navegacao--link">Inscrição</a></li>
-                    <hr>
-                    <li><a href="#" class="navegacao--link">Perguntas frequentes</a></li>
-                </ul>
-            </nav>
+          <div class="menu--logo">
+            <img src="imgs/logoifro.png" alt="Logo Ifro" />
+          </div>
+          <nav class="navegacao">
+            <ul class="navegacao--lista">
+              <li><a href="#" class="navegacao--link">Educadores</a></li>
+              <span class="barra"></span>
+              <li><a href="#" class="navegacao--link">Conteúdo do curso</a></li>
+              <span class="barra"></span>
+              <li><a href="#" class="navegacao--link">Inscrição</a></li>
+              <span class="barra"></span>
+              <li>
+                <a href="#" class="navegacao--link">Perguntas frequentes</a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
     </header>
 
-    <main class="container">
-      <section class="secao">
-        <div class="secao-titulo">
-          <h1>FIC</br> Desenvolvedora Front-end</h1>
-          <button class="botao">
-            Realizar inscrição <img src="imgs/seta.svg" alt="Seta botão" />
-          </button>
+    <section class="secao--foguete">
+      <div class="secao--foguete--topico">
+        <h1 class="secao--foguete--titulo">
+          FIC<br />
+          Desenvolvedora Front-end
+        </h1>
+        <button class="botao">
+          Realizar inscrição <img src="imgs/seta.svg" alt="Seta botão" />
+        </button>
+      </div>
+      <div class="secao--foguete--jornada">
+        <h3 class="secao--foguete--jornada--titulo">Sua jornada inicia em</h3>
+        <div class="secao--foguete--horarios">
+          <p><span class="secao--foguete--horas">10</span> <br />dias</p>
+          <p><span class="secao--foguete--horas">09</span> <br />horas</p>
+          <p><span class="secao--foguete--horas">25</span><br />minutos</p>
         </div>
+      </div>
+    </section>
 
-        <div class="caixa-jornada">
-          <h3>Sua jornada inicia em</h3>
-          <div class="caixa-horarios">
-            <p><span class="horas">10</span> </br>dias</p>
-            <p><span class="horas">09</span> </br>horas</p>
-            <p><span class="horas">25</span></br>minutos</p>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div>
+    <section class="secao-estudante">
+      <div class="div">
+        <div class="secao-estudante-icones">
           <img src="imgs/estudante.svg" alt="Logo Estudante" />
           <p>Público-alvo: alunas do Ensino Médio da Rede Pública</p>
         </div>
-        <div>
+
+        <div class="secao-estudante-icones">
           <img src="imgs/alarm.svg" alt="Logo Alarme" />
-          <p>Público-alvo: alunas do Ensino Médio da Rede Pública</p>
+          <p>Duração:<br />8 meses</p>
         </div>
-        <div>
+
+        <div class="secao-estudante-icones">
           <img src="imgs/users.svg" alt="Logo Usuarios" />
-          <p>Público-alvo: alunas do Ensino Médio da Rede Pública</p>
+          <p>20 vagas</p>
         </div>
-        <p>
-          Aulas presenciais, de segunda a quinta-feira, das 13:10 às 17:10, no
-          IFRO Campus Vilhena
+      </div>
+
+      <p class="secao-estudante-infor">
+        Aulas presenciais, de segunda a quinta-feira, das 13:10 às 17:10, no
+        IFRO Campus Vilhena
+      </p>
+    </section>
+
+    <section class="secao-lista">
+      <div class="secao-imagem"><img src="imgs/computador.png" alt="" /></div>
+
+      <div class="secao-caixa">
+        <h3 class="secao-caixa-titulo">
+          Aprenda a desenvolver aplicações Web Front-end
+        </h3>
+        <p class="secao-caixa-descricao">Projete interfaces com Figma</p>
+        <p class="secao-caixa-descricao">
+          Implemente interfaces Web com HTML e CSS
         </p>
-      </section>
-      <section>
-        <img src="imgs/computador.png" alt="Mulher usando computador" />
-        <div>
-          <h3>Aprenda a desenvolver aplicações Web Front-end</h3>
-          <div>
-            <p>Projete interfaces com Figma</p>
-            <input type="radio" name="" id="" />
+        <p class="secao-caixa-descricao">Aprender a programar com JavaScript</p>
+        <p class="secao-caixa-descricao">Desenvolva aplicações com React</p>
+        <p class="secao-caixa-descricao">Versione código com Git</p>
+      </div>
+    </section>
 
-            <p>Implemente interfaces Web com HTML e CSS</p>
-            <input type="radio" name="" id="" />
+    <section class="section-inscricao">
+      <h3 class="section-inscricao-titulo">
+        Inscrições de 22 de novembro à 12 de dezembro de 2022
+      </h3>
+      <button class="botao">
+        Realizar inscrição <img src="imgs/seta.svg" alt="Seta botão" />
+      </button>
 
-            <p>Aprender a programar com JavaScript</p>
-            <input type="radio" name="" id="" />
+      <div>
+        <img src="imgs/rocket.svg" alt="Foquete icone" class="icone-rocket" />
+        <img
+          src="imgs/space-ship.svg"
+          alt="Nave espacial"
+          class="icone-spaceship"
+        />
+      </div>
+    </section>
 
-            <p>Desenvolva aplicações com React</p>
-            <input type="radio" name="" id="" />
+    <section class="section-container">
+      <div>
+        <h3 class="titulo-primeiro">Conteúdo do FIC</h3>
+        <div class="box-cards">
+          <div class="section-card">
+            <h3 class="titulo">Figma</h3>
+            <div class="botoes">
+              <div class="section-botoes">
+                <div class="section-card-botoes-bg">
+                  <p>Box model</p>
+                </div>
+                <div class="section-card-botoes-bg">
+                  <p>Box model</p>
+                </div>
+              </div>
+            </div>
+          </div>
 
-            <p>Versione código com Git</p>
+          <div class="section-card">
+            <h3 class="titulo">HTML E CSS</h3>
+            <div class="botoes">
+              <div class="section-botoes">
+                <div class="section-card-botoes-bg">
+                  <p>Box model</p>
+                </div>
+                <div class="section-card-botoes-bg">
+                  <p>Box model</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section-card">
+            <h3 class="titulo">JavaScript</h3>
+            <div class="botoes">
+              <div class="section-botoes">
+                <div class="section-card-botoes-bg">
+                  <p>Box model</p>
+                </div>
+                <div class="section-card-botoes-bg">
+                  <p>Box model</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section-card">
+            <h3 class="titulo">React</h3>
+            <div class="botoes">
+              <div class="section-botoes">
+                <div class="section-card-botoes-bg">
+                  <p>Box model</p>
+                </div>
+                <div class="section-card-botoes-bg">
+                  <p>Box model</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section-card">
+            <h3 class="titulo">Git</h3>
+            <div class="botoes">
+              <div class="section-botoes">
+                <div class="section-card-botoes-bg">
+                  <p>Box model</p>
+                </div>
+                <div class="section-card-botoes-bg">
+                  <p>Box model</p>
+                </div>
+                <div class="section-card-botoes-bg">
+                  <p>Box model</p>
+                </div>
+                <div class="section-card-botoes-bg">
+                  <p>Box model</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section-card">
+            <h3 class="titulo">Figma</h3>
+            <div class="botoes">
+              <div class="section-botoes">
+                <div class="section-card-botoes-bg">
+                  <p>Box model</p>
+                </div>
+                <div class="section-card-botoes-bg">
+                  <p>Box model</p>
+                </div>
+                <div class="section-card-botoes-bg">
+                  <p>Box model</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
-      <section>
-        <div>
-          <h3>Inscrições de 22 de novembro à 12 de dezembro de 2022</h3>
-          <button class="botao">
-            Realizar inscrição <img src="imgs/seta.svg" alt="Seta botão" />
-          </button>
-        </div>
-        <div>
-          <img src="imgs/rocket.svg" alt="Foquete icone" />
-          <img src="imgs/space-ship.svg" alt="Nave espacial"">
-        </div>
-      </section>
-      <section>
-        <div class="caixas">
-          <p>Figma</p>
-          <div>
-            <p>Box model</p>
-            <p>Box model</p>
-            <p>Box model</p>
-            <p>Box model</p>
-            <p>Box model</p>
-          </div>
-        </div>
-        <div class="caixas">
-          <p>HTML e CSS</p>
-          <div>
-            <p>Box model</p>
-            <p>Box model</p>
-            <p>Box model</p>
-            <p>Box model</p>
-            <p>Box model</p>
-          </div>
-        </div>
-        <div class="caixas">
-          <p>JavaScript</p>
-          <div>
-            <p>Box model</p>
-            <p>Box model</p>
-            <p>Box model</p>
-            <p>Box model</p>
-            <p>Box model</p>
-          </div>
-        </div>
-        <div class="caixas">
-          <p>React</p>
-          <div>
-            <p>Box model</p>
-            <p>Box model</p>
-            <p>Box model</p>
-            <p>Box model</p>
-            <p>Box model</p>
-          </div>
-        </div>
-        <div class="caixas">
-          <p>Git</p>
-          <div>
-            <p>Box model</p>
-            <p>Box model</p>
-            <p>Box model</p>
-            <p>Box model</p>
-            <p>Box model</p>
-          </div>
-        </div>
-      </section>
-      <section>
-        <h3>Educadores</h3>
-        <div>
+      </div>
+    </section>
+
+    <section class="secao-educadores">
+      <h3 class="secao-educadores-titulo">Educadores</h3>
+      <div class="secao-box">
+        <div class="secao-educadores-card">
           <img src="imgs/marco.png" alt="" />
-          <p>Marco Andrade</p>
-          <ul>
-            <li>Mestre em Engenharia de Software</li>
-            <li>Coordenador do FSLab (Laboratório de Fábricas de Software)</li>
-          </ul>
+          <div class="secao-educadores-box">
+            <div class="secao-educadores-descricao">
+              <div class="conteudo">
+                <h4 class="secao-educadores-descricao-titulo">Marco Andrade</h4>
+                <ul>
+                  <li>Mestre em Engenharia de Software</li>
+                  <li>
+                    Coordenador do FSLab (Laboratório de Fábricas de Software)
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-        <div>
+        <div class="secao-educadores-card">
           <img src="imgs/marco.png" alt="" />
-          <p>Marco Andrade</p>
-          <ul>
-            <li>Mestre em Engenharia de Software</li>
-            <li>Coordenador do FSLab (Laboratório de Fábricas de Software)</li>
-          </ul>
+          <div class="secao-educadores-box">
+            <div class="secao-educadores-descricao">
+              <div class="conteudo">
+                <h4 class="secao-educadores-descricao-titulo">Marco Andrade</h4>
+                <ul>
+                  <li>Mestre em Engenharia de Software</li>
+                  <li>
+                    Coordenador do FSLab (Laboratório de Fábricas de Software)
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-      </section>
-      <section>
-        <form>
-          <label for="name">Nome completo:</label>
-          <input type="text" name="name" id="" />
-        </form>
-      </section>
-    </main>
+      </div>
+    </section>
   </body>
 </html>
