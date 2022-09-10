@@ -374,42 +374,47 @@ body{
 
 
 .secao-inscricao{
-    height: 700px;
+    min-height: 700px;
     
 }
 
 .secao-perguntas{
     background-color: #010101;
-    height: 700px;
+    min-height: 1152px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.caixa-perguntas{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.secao-perguntas-titulo{
+    font-size: 32px;
+    color: white;
+    margin-bottom: 162px;
 }
 
 .caixa-opcoes{
-    height: 110px;
+    min-height: 110px;
     background-color: #262525;
     width: 1199px;
     display: flex;
     align-items: center;
-    
+    justify-content: space-between;
+    padding: 38px;
+    box-sizing: border-box;
 }
 
 .caixa-opcoes-texto{
-    color: white;
-    padding: 10px;
-    box-sizing: border-box;
-    
+    color: white; 
 }
 
-.caixa-opcoes-texto::after{
-    content: "+";
-    display: inline-block;
-    color: white;
-    width: 32px;
-    height: 32px;
-}
 
 .secao-perguntas h3 {
     text-align: center;
