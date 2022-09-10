@@ -1,20 +1,27 @@
 .secao-inscricao{
-    background-image:linear-gradient(400deg, #5625c0 100%, rgb(77, 33, 170) 0.01%, rgba(105, 45, 233, 0.5) 100%);
+    background-color: #692DE9;
+    background-image:linear-gradient(400deg, #4822a3 100%, rgba(81, 35, 180, 0.100) 0.80%, rgba(115, 50, 255, 0.411) 100%);
     display: flex;
-    
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     color: white;
+    column-gap: 154px;
 }
-
-
-
 
 form{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 17px;
  
 }
+.secao-container-formulario{
+   display: flex;
+   
+}
+
 
 form input{
     width: 355px;
@@ -22,7 +29,8 @@ form input{
     border: none;
     border-radius: 5px;
     outline: none;
-    padding-left: 2px;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 form label{
@@ -38,9 +46,33 @@ form label{
     background-color:#371879;
     border: none;
     color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 13px;
 }
 
 .formulario-titulo{
     font-size: 32px;
+    margin-bottom: 30px;
+}
 
+.secao-inscricao-descricao{
+    width: 555px;
+    display: flex;
+    align-items: center;
+    justify-content: ce;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap:70px;
+}
+
+.box p {
+    align-self: flex-start;
+    line-height: 30px;
+    font-size: 14px;
 }
