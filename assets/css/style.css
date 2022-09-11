@@ -298,84 +298,74 @@ body{
     margin-bottom: 199px;
 }
 
-.secao-box{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
+
 
 .secao-educadores{
     background-color: #010101;
-    height: 700px;
+    min-height: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
+    row-gap: 155px;
 }
+
+.secao-container-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
 .secao-educadores-titulo{
     font-size: 32px;
     color: white;
-    text-align: center;
-    margin-bottom: 90px;
 }
 
 .secao-educadores-card{
-    max-width: 590px;
+    width: 590px;
     height: 214px;
     border: 2px solid #692DE9;
     border-radius: 10px;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-around;
+  
 }
 
-.secao-educadores-card img {
-    margin-left: 33px;
-}
-
-.conteudo{
-    display: flex;
-    flex-direction: column;
-    gap: 19px;
-}
-.conteudo ul {
-    display: flex;
-    flex-direction: column;
-    row-gap: 8px;
-    margin-bottom: 40px;
-    list-style: initial;
-}
-
-.conteudo ul li {
-    font-size: 14px;
-    text-align: justify;
-    margin-left: 20px;
-    width: 364px;
-}
-
-
-.secao-educadores-box{
+.secao-conteudo-card{
    display: flex;
-    align-items: center;
-    flex-direction: column;
-   
- 
+   align-items: center;
+   justify-content: space-evenly;
+    gap: 10px;
+}
+.secao-conteudo-card ul {
+    list-style: initial;
+  
+}
 
+.secao-conteudo-card ul li {
+    font-size: 14px;
+    margin-left: 20px;
+    line-height: 2;
+    max-width: 364px;
+    font-weight: 300;
+}
+.secao-educadores-descricao{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 13px;
 }
 .secao-educadores-descricao-titulo{
     font-size: 24px;
-   
 }
 
 
 .secao-inscricao{
     min-height: 700px;
-    
 }
 
 .secao-perguntas{
@@ -398,6 +388,7 @@ body{
     font-size: 32px;
     color: white;
     margin-bottom: 162px;
+    text-align: center;
 }
 
 .caixa-opcoes{
@@ -416,6 +407,3 @@ body{
 }
 
 
-.secao-perguntas h3 {
-    text-align: center;
-}
