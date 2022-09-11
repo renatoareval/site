@@ -370,16 +370,34 @@ body{
 
 .secao-inscricao{
     min-height: 700px;
+
 }
+
 
 .secao-perguntas{
     background-color: #010101;
-    min-height: 1152px;
+    min-height: 1600px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: relative;
     
 }
+
+.rocket-perguntas{
+    width: 58px;
+    height: 63px;
+    background-color: #5d28d0;
+    position: absolute;
+    bottom: 90px;
+    right: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 .caixa-perguntas{
     display: flex;
     align-items: center;
