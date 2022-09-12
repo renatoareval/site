@@ -1,5 +1,7 @@
-.secao-inscricao{
-    background-color: #692DE9;
+
+
+
+.section-inscricao-formulario{
     background-image:linear-gradient(400deg, #4822a3 100%, rgba(81, 35, 180, 0.100) 0.80%, rgba(115, 50, 255, 0.411) 100%);
     display: flex;
     align-items: center;
@@ -12,16 +14,32 @@
 form{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: self-start;
     justify-content: center;
     gap: 17px;
+    height: 700px;
+    flex-wrap: wrap;
  
 }
-.secao-container-formulario{
-   display: flex;
-   
+
+
+.section-inscricao-descricao{
+    width: 555px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
+.section-caixa-formulario{
+    display: flex;
+
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 1300px;
+    
+}
 
 form input{
     width: 355px;
@@ -56,12 +74,7 @@ form label{
     margin-bottom: 30px;
 }
 
-.secao-inscricao-descricao{
-    width: 555px;
-    display: flex;
-    align-items: center;
-    justify-content: ce;
-}
+
 
 .box{
     display: flex;
