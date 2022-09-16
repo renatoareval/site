@@ -5,37 +5,37 @@
 @import url(/assets/css/formulario.css);
 @import url(/assets/css/footer.css);
 
-body{
+body {
     font-family: 'Inter';
 }
 
-.secao--foguete{
+.secao--foguete {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    background-image: url("/assets/imgs/rocket-fundo.png"),linear-gradient(to right,rgb(15, 15, 15),rgb(0, 0, 0));
+    background-image: url("/assets/imgs/rocket-fundo.png"), linear-gradient(to right, rgb(15, 15, 15), rgb(0, 0, 0));
     background-position: top;
     background-size: cover;
-    height:700px ;
-    width: 100%;
+    height: 700px;
+
 }
 
-.secao--foguete--topico{
+.secao--foguete--topico {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 107px;
 }
 
-.secao--foguete--titulo{
+.secao--foguete--titulo {
     font-size: 48px;
-  text-align: center;
+    text-align: center;
     color: white;
     font-weight: 400;
-    margin-bottom:107px ;
+
 }
 
-.botao{
+.botao {
     width: 360px;
     height: 67px;
     background-color: #692DE9;
@@ -47,7 +47,6 @@ body{
     border-radius: 4px;
     font-size: 24px;
     color: white;
-    margin-bottom:106px ;
     cursor: pointer;
     /* transition: all .5s; */
 }
@@ -57,95 +56,105 @@ body{
     height: 184px;
     background-color: rgba(3, 3, 3, 0.8);
     border-radius: 5px;
-   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+
 }
 
 .secao--foguete--jornada--titulo {
     text-align: center;
-    margin-top: 37px;
+
     color: white;
     font-size: 24px;
     font-weight: 500;
-  
+
 }
 
-.secao--foguete--horarios{
+.secao--foguete--horarios {
     display: flex;
-    margin-top: 40px;   
+
     align-items: center;
     justify-content: center;
     gap: 50px;
-  
+
 }
 
-.secao--foguete--horarios p{
+.secao--foguete--horarios p {
     text-align: center;
     color: white;
     font-size: 16px;
     width: 500;
 }
 
-.secao--foguete--horas{
+.secao--foguete--horas {
     color: #692DE9;
     font-size: 25px;
     font-weight: 500;
     display: block;
 }
 
-.secao-estudante{
+.secao-estudante {
     min-height: 700px;
     background: #010101;
     color: white;
     margin: 0 auto;
     width: 100%;
 }
-.div{
+
+.div {
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 526px;
     flex-wrap: wrap;
 }
-.secao-estudante-icones{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+
+.secao-estudante-icones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
 
 }
 
-.secao-estudante-icones img{
+.secao-estudante-icones img {
     display: block;
     width: 50px;
     height: 50px;
 }
-.secao-estudante-icones p{
-    width: 284px;
-    height: 87px;
-    font-size:24px ;
-    text-align: center;
-    margin-top: 34px;
-} 
 
-.secao-estudante-infor{
+.secao-estudante-icones p {
+    width: 284px;
+
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.secao-estudante-infor {
     text-align: center;
     font-size: 24px;
     font-weight: 400;
 }
 
-.secao-lista{
+.secao-lista {
     background-color: #692DE9;
-    background-image:linear-gradient(400deg, #5625c0 100%, rgb(77, 33, 170) 0.01%, rgba(105, 45, 233, 0.5) 100%);
+    background-image: linear-gradient(400deg, #5625c0 100%, rgb(77, 33, 170) 0.01%, rgba(105, 45, 233, 0.5) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.secao-imagem img{
+.secao-imagem img {
     display: block;
     max-width: 100%;
 }
-.secao-caixa{
+
+.secao-caixa {
     min-height: 500px;
     min-width: 400px;
     margin-left: 74px;
@@ -158,15 +167,15 @@ body{
 }
 
 
-.secao-caixa-titulo{
+.secao-caixa-titulo {
     font-size: 32px;
     text-align: left;
- 
+
     font-weight: 500;
     line-height: 55px;
 }
 
-.secao-caixa-descricao{
+.secao-caixa-descricao {
 
     font-size: 14px;
     width: 400;
@@ -176,7 +185,7 @@ body{
     align-self: start;
 }
 
-.secao-caixa-descricao::before{
+.secao-caixa-descricao::before {
     content: "";
     height: 28px;
     width: 28px;
@@ -188,7 +197,7 @@ body{
 
 }
 
-.section-inscricao{
+.section-inscricao {
     background-color: #000000fd;
     /* background-color: rgb(0, 68, 255); */
     min-height: 700px;
@@ -199,30 +208,38 @@ body{
     position: relative;
 }
 
-.section-inscricao-titulo{
+.section-inscricao-caixa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 65px;
+}
+
+.section-inscricao-titulo {
     color: white;
     font-size: 32px;
     width: 432px;
     min-height: 90px;
     text-align: center;
     line-height: 45px;
-    margin-bottom: 65px;
 }
 
-.icone-rocket{
+.icone-rocket {
     position: absolute;
     top: 67px;
     right: 172px;
 
 }
-.icone-spaceship{
+
+.icone-spaceship {
     position: absolute;
     left: 128px;
-    bottom:133px;
-   
+    bottom: 133px;
+
 }
 
-.section-container-boxmodel{
+.section-container-boxmodel {
     background: radial-gradient(50% 50% at 50% 50%, #5d28d0 0%, rgb(4, 2, 8) 100%);
     min-height: 1400px;
     display: flex;
@@ -230,36 +247,38 @@ body{
     justify-content: center;
 
 }
-.section-container-cards{
+
+.section-container-cards {
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
     width: 1300px;
     min-height: 1200px;
-}   
+}
 
-.box-cards{
+.box-cards {
     width: 1300px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
 
-.section-boxmodel-titulo{
+.section-boxmodel-titulo {
     color: white;
     font-size: 32px;
     text-align: center;
 }
 
-.secao-cards-boxmodel{
+.secao-cards-boxmodel {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
-    justify-content: center;
-   
+    justify-content: left;
+
 }
-.section-card{
+
+.section-card {
     width: 590px;
     min-height: 320px;
     border: 2px solid #692DE9;
@@ -267,27 +286,27 @@ body{
     border-radius: 10px;
 }
 
-.titulo-card{
-    margin-left: 40px;
+.titulo-card {
     font-size: 32px;
     color: white;
 }
-.botoes{
+
+.botoes {
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
     flex-direction: column;
-    gap: 10px;
-    min-height: 200px; 
+    justify-content: space-evenly;
+    height: 200px;
+    padding-left: 40px;
+
 }
 
-.section-botoes{
+.section-botoes {
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
-    padding-left: 40px;  
 }
-.section-card-botoes-bg{
+
+.section-card-botoes-bg {
     width: 96px;
     height: 24px;
     background-color: #7e2de9;
@@ -298,12 +317,13 @@ body{
     gap: 8px;
     border-radius: 5px;
 }
+
 .section-botoes p {
     color: white;
     font-size: 14px;
 }
 
-.secao-educadores{
+.secao-educadores {
     background-color: #010101;
     min-height: 700px;
     display: flex;
@@ -313,7 +333,7 @@ body{
     row-gap: 155px;
 }
 
-.secao-container-card{
+.secao-container-card {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -321,12 +341,12 @@ body{
     flex-wrap: wrap;
 }
 
-.secao-educadores-titulo{
+.secao-educadores-titulo {
     font-size: 32px;
     color: white;
 }
 
-.secao-educadores-card{
+.secao-educadores-card {
     width: 590px;
     height: 214px;
     border: 2px solid #692DE9;
@@ -335,18 +355,19 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-  
+
 }
 
-.secao-conteudo-card{
-   display: flex;
-   align-items: center;
-   justify-content: space-evenly;
+.secao-conteudo-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     gap: 10px;
 }
+
 .secao-conteudo-card ul {
     list-style: initial;
-  
+
 }
 
 .secao-conteudo-card ul li {
@@ -356,35 +377,37 @@ body{
     max-width: 364px;
     font-weight: 300;
 }
-.secao-educadores-descricao{
+
+.secao-educadores-descricao {
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     gap: 13px;
 }
-.secao-educadores-descricao-titulo{
+
+.secao-educadores-descricao-titulo {
     font-size: 24px;
 }
 
 
-.secao-inscricao{
+.secao-inscricao {
     min-height: 700px;
 
 }
 
 
-.secao-perguntas{
+.secao-perguntas {
     background-color: #010101;
     min-height: 1600px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     position: relative;
-    
+
 }
 
-.rocket-perguntas{
+.rocket-perguntas {
     width: 58px;
     height: 63px;
     background-color: #5d28d0;
@@ -398,7 +421,7 @@ body{
 
 
 
-.caixa-perguntas{
+.caixa-perguntas {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -406,14 +429,14 @@ body{
     row-gap: 8px;
 }
 
-.secao-perguntas-titulo{
+.secao-perguntas-titulo {
     font-size: 32px;
     color: white;
     margin-bottom: 162px;
     text-align: center;
 }
 
-.caixa-opcoes{
+.caixa-opcoes {
     min-height: 110px;
     background-color: #262525;
     width: 1199px;
@@ -424,8 +447,11 @@ body{
     box-sizing: border-box;
 }
 
-.caixa-opcoes-texto{
-    color: white; 
+.caixa-opcoes-texto {
+    color: white;
 }
 
-
+.caixa-opcoes-texto-mais {
+    font-size: 32px;
+    color: white;
+}
